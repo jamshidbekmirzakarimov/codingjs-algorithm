@@ -1,9 +1,9 @@
-let str = "Hello World"
+let str = "Hello World";
 // console.log(str.length); // bu length strni uzunligini qaytaradi
 // console.log(str.slice(1, 5)); // slice kesib beradi
 // console.log(str.slice(-2, -1));// oxiridan kesib beradi
 
-let str2 = "                hello world               "
+let str2 = "                hello world               ";
 // console.log(str2.trim());// trim bu chap va o'sh tomondagi bo'sh joylarni olib tashlaydi
 // console.log(str2.trimStart());// trimStart chap tomondagi bo'sh joylarni olib tashlaydi
 // console.log(str2.trimEnd());// trimEnd o'sh tomondagi bo'sh joylarni olib tashlaydi
@@ -12,7 +12,7 @@ let str2 = "                hello world               "
 
 // console.log(str.startsWith("h")); // bu shu hafdan boshlanganmi deb tekshiradi agar to'g'ri bo'lsa true qaytaradi
 // console.log(str.endsWith("d")); // bu shu hafdan oxirgi deb tekshiradi agar to'g'ri bo'lsa true qaytaradi
-// console.log(str.startsWith("l", 3)); // bu 3indexda turgan element l ga tengmi deb tekshiradi. 
+// console.log(str.startsWith("l", 3)); // bu 3indexda turgan element l ga tengmi deb tekshiradi.
 
 // console.log(str.replace("hello", "salom")); // replace bu ikkita qiymat qabul qiladi birinchisi o'zgartirmoqchi bo'lgan so'zimiz ikkinchisi o'rniga qo'ymoqchi bo'lgan so'zimiz bu faqat birinchi qiymatni o'zgartiradi.
 // console.log(str.replaceAll("l", "L")); // replaceAll hamma qiymatlarni o'zgartiradi. yani l dan nechta bo'lsa shularni hammasini
@@ -21,7 +21,6 @@ let str2 = "                hello world               "
 
 // console.log(str.toLowerCase()); // bu hamma harflarni kichik qilib beradi.
 // console.log(str.toUpperCase()); // bu hamma harflarni katta qilib beradi.
-
 
 // console.log(str.includes("hello")); // bu qidirib bor bo'lsa true qaytaradi.
 // console.log(str.concat(" js")); // bu oxiriga qo'shib beradi.
@@ -44,8 +43,6 @@ let str2 = "                hello world               "
 //     return aSmile && bSmile || !aSmile || !bSmile && aSmile || bSmile
 //   }
 
-
-
 //* 3-masala
 // function sumDouble(a, b){
 //     if(a != b){
@@ -55,7 +52,6 @@ let str2 = "                hello world               "
 //     }
 //   }
 
-
 //* 4-masala
 // function diff21(n){
 //     if(n > 21){
@@ -63,20 +59,18 @@ let str2 = "                hello world               "
 //     }else{
 //       return Math.abs(21 - n)
 //     }
-        
+
 //   }
 
 //* 5-masala
 // function parrotTrouble(talking, hour){
-//     return talking && hour < 7 || hour > 20 
+//     return talking && hour < 7 || hour > 20
 //   }
-
 
 //* 6-masala
 // function makes10(a, b){
 //     return a+b==10 || a == 10 || b==10
 //   }
-
 
 //* 7-masala
 // function nearHundred(n){
@@ -116,7 +110,6 @@ let str2 = "                hello world               "
 //     return str.slice(0,3).repeat(3)
 //   }
 
-
 //* 13-masala
 // function backAround(str){
 //     return str.slice(-1) + str + str.slice(-1)
@@ -127,7 +120,7 @@ let str2 = "                hello world               "
 //     if(n % 3 == 0 || n % 5 == 0){
 //       return true
 //     }else {
-//       return false 
+//       return false
 //     }
 //   }
 
@@ -148,7 +141,7 @@ let str2 = "                hello world               "
 //     }else{
 //       return false
 //     }
-    
+
 //   }
 
 //* 18-masala
@@ -169,7 +162,7 @@ let str2 = "                hello world               "
 // function loneTeen(a, b){
 //     let isATeen = (a >= 13 && a <= 19);
 //        let isBTeen = (b >= 13 && b <= 19);
-   
+
 //        return isATeen !== isBTeen;
 //    }
 
@@ -180,23 +173,68 @@ let str2 = "                hello world               "
 //     }else{
 //       return str
 //     }
-    
+
 //   }
 
 //* 22-masala
-    // function mixStart(str){
-    //     return str.startsWith("mix") || str.slice(1, 3).startsWith("ix")
-    //   }
+// function mixStart(str){
+//     return str.startsWith("mix") || str.slice(1, 3).startsWith("ix")
+//   }
+
+//* 23-masala
+// function startOz(str) {
+//   if (str.slice(0, 2) == "oz") {
+//     return str.slice(0, 2);
+//   } else if (str.slice(0, 1) == "o") {
+//     return str.slice(0, 1);
+//   } else {
+//     return str.slice(1, 2);
+//   }
+// }
+
+//* 24-masala
+// function intMax(a, b, c){
+//     if(a > b){
+//       return a
+//     }else if(a > c){
+//       return a
+//     }else if(b > a){
+//      return b
+//     }else if(b > c){
+//      return b
+//     }else if(c > a){
+//      return c
+//     }else if(c > b){
+//      return c
+//     }
+    
+//   }
+
+// * 25-masala
+// function in3050(a, b){
+//     if(a >= 30 && a <= 40 && b >= 30 && b <= 40){
+//       return true
+//     }else if(a >= 40 && a <= 50 && b >= 40 && b <= 50){
+//       return true
+//     }else{
+//       return false
+//     }
+//   }
+//   console.log(in3050(40, 50));
+  
+// * 26-masala
+// function max1020(a, b){
+//     if(a>=10 && a <= 20 || b >= 10 && b <= 20){
+//       if(a>b){
+//         return a
+//       }else {
+//         return b
+//       }
+      
+//     }else{
+//       return 0
+//     }
+//   }
 
     
-
-
-
-
-
-
-
-
-
-
-
+  
