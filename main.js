@@ -102,9 +102,93 @@ let str2 = "                hello world               "
 //     return str.slice(0, n) + str.slice(n+1)
 //   }
 
+//* 11-masala
+// function frontBack(str){
+//     if(str.length > 1){
+//       return str.slice(-1) + str.slice(1, str.length - 1) + str.slice(0,1)
+//     }else{
+//       return str
+//     }
+//   }
+
+//* 12-masala
+// function front3(str){
+//     return str.slice(0,3).repeat(3)
+//   }
 
 
+//* 13-masala
+// function backAround(str){
+//     return str.slice(-1) + str + str.slice(-1)
+//   }
 
+//* 14-masala
+// function or35(n){
+//     if(n % 3 == 0 || n % 5 == 0){
+//       return true
+//     }else {
+//       return false 
+//     }
+//   }
+
+//* 15-masala
+// function front22(str){
+//     return str.slice(0,2) + str + str.slice(0,2)
+//   }
+
+//* 16-masala
+// function startHi(str){
+//     return str.startsWith("hi")
+//   }
+
+//* 17-masala
+// function icyHot(temp1, temp2){
+//     if(temp1 < 0 && temp2 > 100 || temp1 > 100 && temp2 < 0){
+//       return true
+//     }else{
+//       return false
+//     }
+    
+//   }
+
+//* 18-masala
+// function in1020(a, b){
+//     return a > 10 || b < 20 && a < 20 && b > 10
+//   }
+
+//* 19-masala
+// function hasTeen(a, b, c){
+//     if((a >= 13 && a <= 19) || (b >= 13 && b <= 19) || (c >= 13 && c <= 19)){
+//       return true
+//     }else{
+//       return false
+//     }
+//   }
+
+// * 20-masala
+// function loneTeen(a, b){
+//     let isATeen = (a >= 13 && a <= 19);
+//        let isBTeen = (b >= 13 && b <= 19);
+   
+//        return isATeen !== isBTeen;
+//    }
+
+//* 21-masala
+// function delDel(str){
+//     if(str.slice(1, 4) == "del"){
+//       return str.slice(0,1) + str.slice(4, str.length)
+//     }else{
+//       return str
+//     }
+    
+//   }
+
+//* 22-masala
+    // function mixStart(str){
+    //     return str.startsWith("mix") || str.slice(1, 3).startsWith("ix")
+    //   }
+
+    
 
 
 
