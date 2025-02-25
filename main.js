@@ -207,7 +207,7 @@ let str2 = "                hello world               ";
 //     }else if(c > b){
 //      return c
 //     }
-    
+
 //   }
 
 // * 25-masala
@@ -221,7 +221,7 @@ let str2 = "                hello world               ";
 //     }
 //   }
 //   console.log(in3050(40, 50));
-  
+
 // * 26-masala
 // function max1020(a, b){
 //     if(a>=10 && a <= 20 || b >= 10 && b <= 20){
@@ -230,11 +230,29 @@ let str2 = "                hello world               ";
 //       }else {
 //         return b
 //       }
-      
+
 //     }else{
 //       return 0
 //     }
 //   }
 
-    
+
+// * 27-masala
+// function stringE(str) {
+//   let count = 0;
+//   for (let i = 0; i < str.length; i++) {
+//     if (str[i] === "e") {
+//       count++;
+//     }
+//   }
+//   if(count >= 1 && count <= 3){
+//     return true
+//   }else{
+//     return false
+//   }
   
+// }
+
+// console.log(stringE("Hello"));
+
+
