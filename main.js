@@ -367,3 +367,29 @@ let str2 = "                hello world               ";
 // }
 
 
+//* 9-masala
+// function array123(nums){
+//     for(let i = 0; i < nums.length; i++){
+//       if(nums[i] == 1){
+//         if(nums[i+1] == 2){
+//           if(nums[i+2]== 3){
+//             return true
+//           }
+//         }
+//       }  
+//     }
+//     return false
+//   }
+
+//*10-masala
+
+// function stringX(str){
+//     if(str.length <= 2 ){
+//         return str
+//     }else{
+//         return str.slice(0,1) + str.slice(1,-1).replaceAll("x", "") + str.slice(-1)
+//     }
+// }
+
+//* 11-masala
+
