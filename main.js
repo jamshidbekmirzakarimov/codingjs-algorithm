@@ -31,6 +31,8 @@ let str2 = "                hello world               ";
 
 //! coding js algorithm
 
+//! Warmup-1  
+
 //* 1-masala
 // function sleepIn(weekday, vacation){
 //     return weekday && vacation || weekday && vacation
@@ -254,5 +256,114 @@ let str2 = "                hello world               ";
 // }
 
 // console.log(stringE("Hello"));
+
+//*  28-masala
+// function lastDigit(a, b, c){
+//   return (a%10) == (b%10)
+// }
+
+//* 29-masala
+// function endUp(str){
+//   if(str.length < 3){
+//     return str.toUpperCase()
+//   }else {
+//     return str.slice(0, -3) + str.slice(-3).toUpperCase()
+//   }
+// }
+//* 30-masala
+// function everyNth(str, N) {
+//   let result = ""; 
+//   for (let i = 0; i < str.length; i += N) {
+//     result += str[i]; 
+//   }
+//   return result;
+// }
+
+
+
+
+//! Warmup-2 
+// * 1-masala
+
+// function stringTimes(str, n){
+//   return str.repeat(n)
+// }
+
+//* 2-masala 
+// function frontTimes(str, n){
+//   return str.slice(0,3).repeat(n)
+// }
+
+//* 3-masala 
+// function countXX(str){
+//   let arr = str.split("")
+//   let count = 0
+//   for(let i = 0; i < arr.length; i++){
+//       if(arr[i] == "x"){
+//           count++
+//       }
+//   }
+//   if(count > 0){
+//       return count - 1
+//   }else{
+//       return count
+//   }
+// }
+
+
+
+//* 4-masala
+// function doubleX(str){
+//   let getIndex = str.indexOf("x")
+//   if(str[getIndex+1] == "x"){
+//       return true
+//   }else{
+//       return false
+//   }
+// }
+
+//* 5-masala
+// function stringBits(str){
+//   let result = ""
+//   for(let i = 0; i<str.length; i+=2){
+//     result += str[i]
+//   }
+  
+//   return result
+// }
+
+// * 6-masala
+
+// function stringSplosion(str){
+//   return str.slice(0,1) + str.slice(0,2) + str.slice(0,3) + str
+// }
+
+//* 7-masala 
+
+// function last2(str) {
+//   if (str.length < 2) return 0; // Agar string uzunligi 2 dan kichik bo'lsa, 0 qaytaramiz
+
+//   let last2_chars = str.slice(-2); // Oxirgi 2 ta harfni olish
+//   let count = 0;
+
+//   for (let i = 0; i < str.length - 2; i++) { // Oxirgi 2 ta harfdan oldingacha tekshirish
+//     if (str.slice(i, i + 2) === last2_chars) { // 2 harfli substringni oxirgi 2 ta bilan solishtiramiz
+//       count++; // Agar mos kelsa, hisoblagichni oshiramiz
+//     }
+//   }
+
+//   return count; // Natijani qaytarish
+// }
+
+//* 8-masala
+// function arrayCount9(nums){
+//   let count = 0
+//   for(let i = 0; i < nums.length; i++){
+//     if(nums[i] == 9){
+//       count++
+//     }
+//   }
+//   return count
+// }
 
 
