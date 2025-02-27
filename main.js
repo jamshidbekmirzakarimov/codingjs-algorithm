@@ -392,4 +392,192 @@ let str2 = "                hello world               ";
 // }
 
 //* 11-masala
+// function altPairs(str){
+//     return str.charAt(0) + str.charAt(1) + str.charAt(4) + str.charAt(5) + str.charAt(8) + str.charAt(9)
+//   }
 
+//* 12-masala
+// function stringYak(str){
+//     return str.replace(/yak/g, "")
+//   }
+
+
+//* 13-masala
+// function array667(nums){
+//     let count = 0;
+
+//     for (let i = 0; i < nums.length - 1; i++) {
+//         if (nums[i] === 6 && (nums[i + 1] === 6 || nums[i + 1] === 7)) {
+//             count++;
+//         }
+//     }
+
+//     return count;
+// }
+
+//* 14-masala
+// function noTriples(nums){
+//   for(let i = 0; i<nums.length; i++){
+//     if(nums[i] == nums[i+1] && nums[i+1] == nums[i+2]){
+//       return false
+//     }else{
+//       return true
+//     }
+//   }
+// }
+
+//* 15-masala
+// function has271(nums) {
+//     for (let i = 0; i < nums.length - 2; i++) {
+//         let x = nums[i];
+//         if (nums[i + 1] === x + 5 && Math.abs(nums[i + 2] - (x - 1)) <= 2) {
+//             return true;
+//         }
+//     }
+//     return false;
+// }
+
+
+//! String-1
+// * 1-masala
+// function helloName(name){
+//     return "Hello" +  " " + name+"!"
+//   }
+
+//* 2-masala
+// function makeAbba(a, b){
+//     return a+b+b+a
+//   }
+
+
+//* 3-masala
+// function makeTags(tag, word){
+//     return `<${tag}>${word}</${tag}>`
+//   }
+
+//* 4-masala
+// function makeOutWord(out, word){
+//     return out.slice(0,2) + word + out.slice(2,4)
+//   }
+
+//* 5-masala
+// function extraEnd(str){
+//     return str.slice(-2).repeat(3)
+//   }
+
+//* 6-masala
+// function firstTwo(str){
+//     return str.slice(0,2)
+//   }
+
+//* 7-masala
+// function firstHalf(str){
+//     return str
+//   }
+
+//* 8-masala
+// function withoutEnd(str){
+//     return str.slice(1,-1)
+//   }
+
+//* 9-masala
+// function comboString(a, b){
+//     if(a.length>b.length){
+//       return b + a + b
+//     }else{
+//       return a + b + a
+//     }
+//   }
+
+//* 10-masala
+// function nonStart(a, b){
+//     return a.slice(1, a.length) + b.slice(1, b.length)
+//   }
+
+//* 11-masala
+// function left2(str){
+//     if(str.length <= 2){
+//       return str
+//     }else{
+//       return str.slice(2, str.length) + str.slice(0, 2)
+//     }
+//   }
+
+//* 12-masala
+// function right2(str){
+//     if(str.length <= 2){
+//       return str
+//     }else{
+//       return str.slice(-2) + str.slice(0, -2)
+//     }
+//   }
+
+//* 13-masala
+// function theEnd(str, front){
+//     if(front){
+//       return str.slice(0,1)
+//     }else{
+//       return str.slice(-1)
+//     }
+//   }
+
+//* 14-masala
+// function withoutEnd2(str){
+//     return str.slice(1, -1)
+//   }
+//* 15-masala
+// function endsLy(str){
+//     if(str.slice(-2) == "ly"){
+//       return true
+//     }else{
+//       return false
+//     }
+//   }
+
+//* 16-masala
+// function middleThree(str){
+//     let mid = Math.floor(str.length / 2); 
+//       return str.substring(mid - 1, mid + 2);
+//   }
+
+//* 17-masala
+// function hasBad(str){
+//     if(str.startsWith("bad") || str.slice(1, str.length).startsWith("bad")){
+//       return true
+//     }else{
+//       return false
+//     }
+//   }
+
+//* 18-masala
+// function atFirst(str){
+//     if(str.length <= 1){
+//       return str + "@"
+//     }else{
+//       return str.slice(0,2)
+//     }
+//   }
+
+//* 19-masala
+// function lastChars(a, b){
+//     if(b.length < 1){
+//       return a.slice(0,1) + "@"
+//     }else if(a.length < 1 && b.length < 1){
+//       return "@@"
+//     }else{
+//       return a.slice(0,1) + b.slice(-1)
+//     }
+//   }
+
+//* 20-masala
+// function conCat(a, b){
+//     if(a.length > 1 && b.length > 1 && a.endsWith("c")){
+//       return a.slice(0, -1) + b
+//     }else if(a.length <= 1){
+//       return b
+//     }else if(b.length <= 1){
+//       return a
+//     }else{
+//       return a+b
+//     }
+//   }
