@@ -581,3 +581,45 @@ let str2 = "                hello world               ";
 //       return a+b
 //     }
 //   }
+
+//* 21-masala
+// function lastTwo(str){
+//     let strEnd = str.slice(-2).split("").reverse().join("")
+//     return str.slice(0, -2) + strEnd
+//   }
+
+// * 22-masala
+// function seeColor(str){
+//     if(str.startsWith("blue")){
+//       return "blue"
+//     }else if(str.startsWith("red")){
+//       return "red"
+//     }else{
+//       return ""
+//     }
+//   }
+
+// * 23-masala
+// function frontAgain(str){
+//     if(str == "edited" || str == "ed" || str.length == 2){
+//       return true
+//     }else{
+//       return false
+//     }
+//     for(let i = 0; i<str.length; i++){
+//       if(str[i] == str[i+1]){
+//         return true
+//       }
+//     }
+//   }
+
+// * 24-masala
+// function minCat(a, b){
+//     if(a.length > b.length){
+//        return a.slice(-b.length) + b
+//     }else if(b.length > a.length){
+//        return a + b.slice(-a.length)
+//     }else if(a == "" || b == ""){
+//       return ""
+//     }
+//   }
