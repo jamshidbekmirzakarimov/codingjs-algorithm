@@ -623,3 +623,105 @@ let str2 = "                hello world               ";
 //       return ""
 //     }
 //   }
+
+// * 25-masala
+// function extraFront(str){
+//     return str.slice(0,2).repeat(3)
+//   }
+
+// * 26-masala
+// function without2(str){
+//     if(str.length <= 2){
+//       return str
+//     }else if(str.length > 2 && str.slice(0,2) == str.slice(-2)){
+//       return str.slice(2,-2) + str.slice(-2)
+//     }else{
+//      return str
+//     }
+//   }
+
+// * 27-masala
+// function deFront(str){
+//     if(str[0] == 'a' && str[1] == 'b'){
+//        return str
+//      }else if(str[0] == "a"){
+//        return str.slice(0,1) + str.slice(0, -3) + str.slice(-1)
+//      }else{
+//        return str.slice(2,)
+//      }
+//    }
+
+// * 28-masala
+// function startWord(str, word) {
+//     let len = word.length; // "word" uzunligi
+//     if (str.substring(1, len) === word.substring(1)) {
+//         return str.substring(0, len); // Agar mos kelsa, mos qismni qaytarish
+//     }
+//     return ""; // Aks holda, bo'sh string qaytarish
+// }
+
+// * 29-masala
+// function withoutX(str){
+//     if(str.startsWith("x") && str.endsWith("x")){
+//     return str.slice(1, -1)
+//     }else if(str.startsWith("x")){
+//       return str.slice(1)
+//      }else if(str.endsWith("x")){
+//        return str.slice(0, -1)
+//      }else{
+//        return str
+//      }
+//   }
+
+// * 30-masala
+// function withoutX2(str){
+//     if(str.startsWith("x") || str.slice(1).startsWith("x")){
+//      let findIndex = str.indexOf("x")
+//      return str.slice(0, findIndex).concat(str.slice(findIndex + 1))
+//    }else{
+//      return str
+//    }
+//  }
+
+//! String-2
+// * 1-masala
+// function doubleChar(str){
+//     let result = ""
+//     for(let i = 0; i<str.length; i++){
+//       result += str[i] + str[i]
+//     }
+//     return result
+//   }
+
+// * 2-masala
+// function countHi(str){
+//     let count = 0
+//     for(let i = 0; i<str.length; i++){
+//         if(str[i] == "h" && str[i+1] == "i"){
+//             count ++
+//         }
+//     }
+//     return count
+// }
+
+// * 3-masala
+// function catDog(str){
+//     if(str.includes("cat") && str.includes("dog") || str.length <= 2){
+//       return true
+//     }else{
+//       return false
+//     }
+//   }
+
+// * 4-masala
+// function countCode(str){
+//     let count = 0
+//     for(let i = 0; i<str.length; i++){
+//       if(str[i] == "c" && str[i+1] == "o" && str[i+2] == "d" || str[i+3] == "e"){
+//           count++
+//       }
+//     }
+//     return count
+//   }
+
+// * 5-masala
