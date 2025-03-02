@@ -725,3 +725,96 @@ let str2 = "                hello world               ";
 //   }
 
 // * 5-masala
+// function endOther(a, b){
+//     if(a.slice(-3).toLowerCase() == b.toLowerCase() || b.slice(-2).toLowerCase() == a.toLowerCase()){
+//       return true
+//     }else if(b.slice(-3).toLowerCase() == a.toLowerCase() || b.slice(-2).toLowerCase() == a.toLowerCase()){
+//       return true
+//     }else{
+//       return false
+//     }
+//   }
+
+// * 6-masala
+// function xyzThere(str){
+//     let findXyxIndex = str.indexOf("xyz")
+//     if(str.slice(findXyxIndex-1, findXyxIndex) == "." && str.slice(findXyxIndex + 3, findXyxIndex + 6) != "xyz"){
+//         return false
+//     }else if(str.includes("xyz")){
+//         return true
+//     }else{
+//       return false
+//     }
+  
+// }
+
+// * 7-masala
+// function bobThere(str){
+//     for(let i = 0; i<str.length; i++){
+//       if(str[i] == "b" && str[i + 1] == "o" || str[i+2] == "b"){
+//         return true
+//       }else{
+//         return false
+//       }
+//     }
+//   }
+
+// * 8-masala
+// function xyBalance(str){
+//     for(let i = 0; i<str.length; i++){
+//       if(str[i] == "x" && str[i+1] == "y"){
+//         return true
+//       }else{
+//         return false
+//       }
+//     }
+//   }
+
+// * 9-masala
+// function mixString(a, b){
+//     let result = "";
+//   let minLength = Math.min(a.length, b.length);
+
+//   for (let i = 0; i < minLength; i++) {
+//     result += a[i] + b[i]; // Harflarni navbatma-navbat qo'shamiz
+//   }
+
+//   return result + a.slice(minLength) + b.slice(minLength); // Qolgan qismni qo'shamiz
+// }
+// }
+
+// * 10-masala
+// function repeatEnd(str, n){
+//     let musbat = -Math.abs(n)
+//     return str.slice(musbat).repeat(n)
+//   }
+
+// * 11-masala
+// function repeatFront(str, n){
+//     let result = "";
+  
+//     for (let i = n; i > 0; i--) {
+//       result += str.slice(0, i); // Boshidan i-gacha kesib olamiz
+//     }
+  
+//     return result;
+  
+//   }
+
+// * 12-masala
+// function repeatSeparator(word, sep, count){
+//     let res = word
+//       if(count === 0){
+//           return ""
+//       }
+//     for(let i = 1; i<count; i++){
+//         res += sep + word
+//     }
+//     return res
+//   }
+
+// * 13-masala
+// function xyzMiddle(str){
+//     let findIndex = str.indexOf("xyz")
+//     return str.slice(0, findIndex).length == str.slice(findIndex+3, str.length).length
+// }
