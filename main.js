@@ -818,3 +818,36 @@ let str2 = "                hello world               ";
 //     let findIndex = str.indexOf("xyz")
 //     return str.slice(0, findIndex).length == str.slice(findIndex+3, str.length).length
 // }
+
+// * 14-masala
+// function getSandwich(str){
+//     let firstFindInd = str.indexOf("bread")
+//     let lastFindInd = str.lastIndexOf("bread")
+//     if(str.slice(firstFindInd+5).includes("bread")){
+//       return str.slice(firstFindInd+5, lastFindInd)
+//     }else{
+//       return ""
+//     }
+//   }
+
+// * 15-masala
+
+// function sameStarChar(str){
+//     let lastInd = str.lastIndexOf("*")
+//   return str.slice(lastInd-1, lastInd) == str.slice(lastInd+1, lastInd+2)
+// }
+
+// * 16-masala
+// function oneTwo(str){
+//     let res = ""
+//     for(let i = 0; i+2<str.length; i+=3){
+//         res += str[i+1] + str[i+2] +str[i]
+//     }
+//     return res
+// }
+
+// * 17-masala
+// function zipZap(str){
+//     return str.replace(/z.p/g, "zp");
+// }
+
