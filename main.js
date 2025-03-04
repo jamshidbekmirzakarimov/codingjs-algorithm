@@ -851,3 +851,77 @@ let str2 = "                hello world               ";
 //     return str.replace(/z.p/g, "zp");
 // }
 
+// * 18-masala
+// function starOut(str){
+//     let result = ""; // Natija uchun bo‘sh string
+//      for (let i = 0; i < str.length; i++) {
+//          if (str[i] === '*' || str[i - 1] === '*' || str[i + 1] === '*') {
+//              continue; // * va unga yaqin harflarni tashlab ketamiz
+//          }
+//          result += str[i]; // Aks holda natijaga qo‘shamiz
+//      }
+//      return result;
+//  }
+
+//! String 3
+// * 1-masala
+// function countYZ(str) {
+//     let words = str.toLowerCase().split(" ");
+//       let count = 0;
+
+//   for (let word of words) {
+//       if (word.endsWith("y") || word.endsWith("z")) {
+//           count++;
+//       }
+//   }
+
+//   return count;
+// }
+
+// * 2-masala
+// function withoutString(base, remove){
+//     let result = "";
+//     for(let i = 0; i<base.length; i++){
+//       if(base[i] == remove){
+//         continue
+//       }
+//       result += base[i]
+//     }
+//     return result 
+//   }
+
+// * 3-masala
+
+// function equalIsNot(str){
+//     let isCount = (str.match(/is/g) || []).length;  // "is" necha marta borligini topamiz
+//      let notCount = (str.match(/not/g) || []).length;  // "not" necha marta borligini topamiz
+     
+//      return isCount === notCount;
+//  }
+
+// * 4-masala
+// function gHappy(str){
+//     for (let i = 0; i < str.length; i++) {
+//         if (str[i] === "g") {
+//             if (str[i - 1] !== "g" && str[i + 1] !== "g") {
+//                 return false; // g baxtsiz bo‘lsa, darhol false
+//             }
+//         }
+//     }
+//     return true; // Barcha "g" lar baxtli bo‘lsa, true
+// }
+
+// * 5-masala
+// function countTriple(str) {
+//     let count = 0;
+
+//     for (let i = 0; i < str.length - 2; i++) { // -2 bo‘lishi sababli oxirgi 2 ta harfni tekshirmaymiz
+//         if (str[i] === str[i + 1] && str[i] === str[i + 2]) { // 3 ta ketma-ket bir xil harf bo‘lsa
+//             count++; // Triple ni sanaymiz
+//         }
+//     }
+    
+//     return count;
+// }
+ 
+
