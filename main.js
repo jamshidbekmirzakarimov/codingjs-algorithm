@@ -924,4 +924,25 @@ let str2 = "                hello world               ";
 //     return count;
 // }
  
+// * 6-masala
+// function sumDigits(str){
+//     let sum = 0; // Natijani saqlash uchun o'zgaruvchi
+    
+//       for (let i = 0; i < str.length; i++) { // Stringni harfma-harf tekshiramiz
+//         let ch = str[i]; // Hozirgi belgi
+    
+//         if (!isNaN(ch) && ch >= '0' && ch <= '9') { // Agar raqam bo'lsa
+//           sum += parseInt(ch); // Uni butun songa o‘tkazib, yig‘indiga qo‘shamiz
+//         }
+//       }
+    
+//       return sum; // Natijani qaytaramiz
+//     }
+
+// * 7-masala
+function sameEnds(nums, len){
+    if(nums.startsWith(len) == nums.endsWith(len)){
+      return true
+    }
+  }
 
