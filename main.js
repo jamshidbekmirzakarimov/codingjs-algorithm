@@ -940,9 +940,70 @@ let str2 = "                hello world               ";
 //     }
 
 // * 7-masala
-function sameEnds(nums, len){
-    if(nums.startsWith(len) == nums.endsWith(len)){
-      return true
-    }
-  }
+// function sameEnds(nums, len){
+//     if(nums.startsWith(len) == nums.endsWith(len)){
+//       return true
+//     }
+//   }
 
+// * 8-masala
+// function mirrorEnds(string){
+//     let result = "";
+
+//   for (let i = 0; i < string.length; i++) {
+//     if (string[i] === string[string.length - 1 - i]) { // Boshi va oxiri mos kelishi kerak
+//       result += string[i]; // Mos kelayotgan qismini natijaga qo‘shamiz
+//     } else {
+//       break; // Agar farq bo‘lsa, loopni to‘xtatamiz
+//     }
+//   }
+
+//   return result; // Eng uzun mirror substring qaytariladi
+// }
+
+// * 9-masala
+// function maxBlock(str) {
+//     if (str.length === 0) return 0; // Bo'sh string bo'lsa, natija 0
+  
+//     let maxBlock = 1; // Eng uzun blokni saqlash uchun
+//     let currentBlock = 1; // Hozirgi blok uzunligi
+  
+//     for (let i = 1; i < str.length; i++) { // 2-harfdan boshlab yuramiz
+//       if (str[i] === str[i - 1]) { // Agar oldingi harf bilan bir xil bo'lsa
+//         currentBlock++; // Joriy blok uzunligini oshiramiz
+//       } else {
+//         maxBlock = Math.max(maxBlock, currentBlock); // Eng uzun blokni yangilaymiz
+//         currentBlock = 1; // Yangi blokni boshlaymiz
+//       }
+//     }
+  
+//     return Math.max(maxBlock, currentBlock); // Oxirgi blok ham tekshiriladi
+//   }
+  
+// * 10-masala
+// function notReplace(str){
+//     return str.replace(/\bis\b/g, "is not");
+// }
+
+//! Logic-1
+// * 1-masala
+// function cigarParty(cigars, isWeekend){
+//     if(cigars >=40 && cigars<=60 || cigars >=60 && isWeekend){
+//       return true
+//     }else{
+//       return false
+//     }
+//   }
+
+// * 2-masala
+// function dateFashion(you, date){
+//     if (you >= 8 || date >= 8) {
+//     return 2; // Juda zamonaviylardan biri bor - stol beriladi
+//   } else if (you <= 2 || date <= 2) {
+//     return 0; // Juda yomon kiyinganlardan biri bor - stol berilmaydi
+//   } else {
+//     return 1; // Oddiy holat - ehtimol stol beriladi
+//   }
+// }
+
+// * 3-masala
