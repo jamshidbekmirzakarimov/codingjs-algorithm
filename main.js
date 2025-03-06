@@ -1022,3 +1022,16 @@ let str2 = "                hello world               ";
 //       }
 //     }
 //   }
+
+// * 4-masala
+// function caughtSpeeding(speed, isBirthday){
+//     if(speed <= 60){
+//       return 0
+//     }else if(speed > 60 && speed <=80){
+//              return 1
+//     }else if(speed > 80 || isBirthday){
+//       return 2
+//     }else if(speed > 80 && isBirthday){
+//       return 1
+//     }
+//   }
