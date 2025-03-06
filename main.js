@@ -1007,3 +1007,18 @@ let str2 = "                hello world               ";
 // }
 
 // * 3-masala
+// function squirrelPlay(temp, isSummer){
+//     if(isSummer){
+//       if(temp >= 60 && temp <= 100){
+//         return true
+//       }else{
+//         return false
+//       }
+//     }else{
+//       if(temp >= 60 && temp <= 90){
+//         return true
+//       }else{
+//         return false
+//       }
+//     }
+//   }
