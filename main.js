@@ -1067,3 +1067,21 @@ let str2 = "                hello world               ";
 //       return false
 //     }
 //   }
+
+// * 8-masala
+// function in1To10(n, outsideMode){
+//     if(n>=1 && n<=10){
+//       return true
+//     }else{
+//       return false
+//     }
+//     if(outsideMode){
+//       if(n<=1 && n >= 10){
+//         return true
+//       }else{
+//         return false
+//       }
+//     }else{
+//         return false
+//       }
+//   }
