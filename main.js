@@ -1045,3 +1045,14 @@ let str2 = "                hello world               ";
 //       return sum
 //     }
 //   }
+
+// * 6-masala
+// function alarmClock(day, vacation){
+//     if(day >= 1 && day <= 5 || vacation){
+//       return "7:00"
+//     }else if(day <= 0 || day==6 || vacation){
+//       return "10:00"
+//     }else if(day == 0 || day==6 && vacation){
+//       return "10:00"
+//     }
+//   }
