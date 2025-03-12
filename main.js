@@ -1112,3 +1112,8 @@ let str2 = "                hello world               ";
 //       return false
 //     }
 //   }
+
+// * 12-masala
+// function less20(n){
+//     return n % 20 === 18 || n % 20 === 19;
+//   }
