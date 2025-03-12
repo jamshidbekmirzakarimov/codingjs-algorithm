@@ -1104,3 +1104,11 @@ let str2 = "                hello world               ";
 //     }
 //   }
 
+// * 11-masala
+// function old35(n){
+//     if(Math.abs(n)%3==0 || Math.abs(n)%5==0){
+//       return true
+//     }else{
+//       return false
+//     }
+//   }
