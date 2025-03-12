@@ -1094,3 +1094,13 @@ let str2 = "                hello world               ";
 //       return false
 //     }
 //   }
+
+// * 10-masala
+// function more20(n){
+//     if(n%20==1 || n%20==2){
+//       return true
+//     }else{
+//       return false
+//     }
+//   }
+
