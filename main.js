@@ -1117,3 +1117,9 @@ let str2 = "                hello world               ";
 // function less20(n){
 //     return n % 20 === 18 || n % 20 === 19;
 //   }
+
+//* 13-masala
+// function nearTen(num){
+//     let qoldiq = num%10
+//     return qoldiq <=2 || qoldiq >= 8
+//   }
