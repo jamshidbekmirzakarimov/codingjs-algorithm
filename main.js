@@ -1133,3 +1133,15 @@ let str2 = "                hello world               ";
 //       return sum
 //     }
 //   }
+
+
+// * 15-masala
+// function answerCell(isMorning, isMom, isAsleep){
+//     if (isAsleep) {
+//        return false; // Agar uxlayotgan bo'lsak, javob bermaymiz
+//    }
+//    if (isMorning && !isMom) {
+//        return false; // Ertalab bo'lsa va onamiz bo'lmasa, javob bermaymiz
+//    }
+//    return true; // Barcha boshqa holatlarda javob beramiz
+// }
