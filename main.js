@@ -1156,3 +1156,17 @@ let str2 = "                hello world               ";
 //       return 2
 //     }
 //   }
+
+
+// * 17-masala
+// function fizzString(str){
+//     if(str.startsWith("f") && str.endsWith("b")){
+//       return "FizzBuzz"
+//     }else if(str.endsWith("b")){
+//       return "Buzz"
+//     }else if(str.startsWith("f")){
+//       return "Fizz"
+//     }else{
+//       return str
+//     }
+//   }
