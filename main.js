@@ -1170,3 +1170,16 @@ let str2 = "                hello world               ";
 //       return str
 //     }
 //   }
+
+// * 18-masala
+// function fizzString2(n){
+//     if(n % 3 == 0 && n % 5 == 0){
+//       return "FizzBuzz!"
+//     }else if(n % 5 == 0){
+//       return "Buzz!"
+//     }else if(n % 3 == 0){
+//       return "Fizz!"
+//     }else{
+//       return n + "!"
+//     }
+//   }
