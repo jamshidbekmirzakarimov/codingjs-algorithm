@@ -1192,3 +1192,15 @@ let str2 = "                hello world               ";
 //       return false
 //     }
 //   }
+
+// * 20-masala
+
+// function inOrder(a, b, c, bOk){
+//     if(bOk){
+//       return true
+//     }else if(b > a && b > c || bOk){
+//       return true
+//     }else{
+//       return false
+//     }
+//   }
